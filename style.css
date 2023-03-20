@@ -1,0 +1,39 @@
+*{
+    margin:  auto;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: auto;
+
+}
+
+article {
+    padding: 10px;
+    transition: 1s;
+    box-shadow:  0 0 2px black;
+}
+
+article:hover {
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 0 10px 20px red;
+
+    
+}
